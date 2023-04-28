@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <title>Contato - ByteLock</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+  
+  .fa {
+            padding: 0px;
+            font-size: 60px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.8;
+        }
+
+
+
+        .fa-instagram {
+            background: white;
+            color:#DD2A7B;
+        }
+
+
+
+        .fa-twitter {
+            background: white;
+            color: #00acee;
+        }
+
+
+
+        .fa-google {
+            background: white;
+            color: #EA4335;
+        }
+
+        .fa-facebook {
+            background: white;
+            color: #3b5998;
+        }
+
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #menu {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 132px;
+      background-color: #270D49;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+    }
+
+    a.nav {
+      color: white;
+      text-decoration: none;
+      transition: 0.2s;
+
+
+    }
+
+    a:hover.nav {
+      opacity: 0.7;
+
+    }
+
+    a.nome {
+      color: white;
+      text-decoration: none;
+    }
+
+    #menu2 {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background-color: gainsboro;
+    }
+
+    a.soc {
+      color: #666666;
+      text-decoration: none;
+    }
+
+    a:hover.soc {
+      color: #13BFD6;
+
+    }
+
+
+
+    .flex-container {
+      display: flex;
+      background-color: lavender;
+    }
+
+    .flex-container>div {
+      background-color: white;
+      margin: 15px;
+      padding: 40px;
+      padding-left: 10px;
+      padding-right: 20px;
+      padding-top: 0px;
+
+    }
+
+    .flex-containerservice {
+      display: flex;
+      background-color: #270D49;
+
+    }
+
+    .flex-containerservice>div {
+      background-color: white;
+      margin: 15px;
+      padding: 30px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 25px;
+      border-radius: 5px;
+    }
+
+
+
+    .img-container {
+      width: 180px;
+      height: 180px;
+      overflow: hidden;
+
+    }
+
+    .img-container img {
+      width: 100%;
+      height: 100%;
+      -webkit-transition: -webkit-transform .5s ease;
+      transition: transform .5s ease;
+    }
+
+    .img-container:hover img {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.05);
+    }
+
+    a.icone {
+      text-decoration: none;
+      color: #270D49;
+    }
+
+    a:hover.icone {
+      color: #13BFD6;
+
+
+    }
+
+    .flex-containerbeneficios {
+      display: flex;
+      background-color: white;
+    }
+
+    .flex-containerbeneficios>div {
+      background-image: url(Imagens\ -\ Principal/fundo\ -\ benefícios.jpg);
+      margin: 15px;
+      padding: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+    }
+
+    .form-container {
+	margin: 0 auto;
+	width: 90%;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.form-container h2{
+    text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+    color: #4A4A4A;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+    background-color: lavender;
+}
+
+input[type="submit"] {
+	background-color: #13BFD6;
+	color: #fff;
+	padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+    font-weight: bolder;
+}
+  </style>
+</head>
+
+<body>
+  <a name="inicio"></a>
+  <div id="menu2">
+    <ul style="color: #666666;">
+      <li
+        style="padding: 8px; border-left: 1px #666666 solid;border-right: 1px #666666 solid; padding-left: 15px; padding-right: 15px; margin-left: 25px;">
+        <a class="soc" target="_blank" href="https://www.instagram.com/renanpnevess/"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg></a>
+      </li>
+      <li style="padding: 8px; border-right: 1px #666666 solid; padding-left: 15px; padding-right: 15px;"><a class="soc"
+          target="blank" href="https://www.facebook.com/profile.php?id=100008839535944"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg></a></li>
+      <li style="padding: 8px; border-right: 1px #666666 solid; padding-left: 15px; padding-right: 15px;"><a class="soc"
+          target="blank" href="https://twitter.com/reenanneves_"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg></a></li>
+      <li
+        style="padding: 8px; border-left: 1px #666666 solid;border-right: 1px #666666 solid; padding-left: 15px; padding-right: 15px; margin-left: 530px;">
+        <a class="soc" target="blank" href="tel:21 98483-4713"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg>&nbsp;(21)&nbsp;98483-4713</a>
+      </li>
+      <li style="padding: 8px; border-right: 1px #666666 solid; padding-left: 15px; padding-right: 15px;"><a class="soc"
+          target="_blank" href="mailto:renanpassos2103@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+          </svg>&nbsp;renanpassos2103@gmail.com</a></li>
+
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li style="margin-left: 0px; font-size: 40px;"><a class="nome" href="ByteLock - Principal.html" target="_self"><img
+            src="nome transparente.png" style="width: 330px;"></a></li>
+      <li style="margin-left: 400px; font-size: 16px;"><a class="nav" href="ByteLock - Principal.html" target="_self">Principal</a></li>
+      <li style="margin-left: 32px;font-size: 16px;"><a class="nav" href="ByteLock - Sobre.html" target="_self">Sobre</a></li>
+      <li style="margin-left: 32px;font-size: 16px;"><a class="nav" href="ByteLock - Serviços.html" target="_self">Serviços</a></li>
+      <li style="margin-left: 32px;font-size: 16px;"><a class="nav" href="Novidades - ByteLock.php" target="_self">Novidades</a></li>
+      <li style="margin-left: 32px;font-size: 16px;"><a class="nav" href="ByteLock - Contato.html" target="_self">Contato</a></li>
+    </ul>
+  </div>
+  <br><br>  <br> 
+  <h1 style="color: #13BFD6; font-size: 32px; font-weight: bolder ; text-align: center ;">FORMULÁRIO DE CONTATO</h1>
+ 
+  <h1 style="color: #4A4A4A; font-size: 22px ; text-align: center ; line-height: 1.5;">Preencha o formulário abaixo que entraremos em contato!</h1>
+  <br> <br>
+  
+  
+  <div class="form-container">
+    <form method="post" action="contato.php">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required>
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        
+        <input type="submit" value="Enviar Mensagem"><div style="float:right; margin-top: 0px; margin-right: 0px;"><div style="float:right; margin-top: 0px; margin-right: 45px;">
+          <a href="https://www.instagram.com/renanpnevess/" target="_blank" class="fa fa-instagram"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="mailto:renanpassos2103@gmail.com" target="_blank" class="fa fa-google"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/reenanneves_" class="fa fa-twitter" target="_blank"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/profile.php?id=100008839535944"
+              class="fa fa-facebook" target="_blank"></a>
+      </div>
+
+      </div>
+    </form>
+</div>
+<br> <br>  
+</body>
+</html>
