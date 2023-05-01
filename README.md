@@ -18,7 +18,7 @@ Segue abaixo o resultado final!
 <br><br>
 
 ## Sobre 
-<img src="https://cdn.discordapp.com/attachments/764117461238284318/1101603151372623942/sobre.png">
+<img src="https://cdn.discordapp.com/attachments/1101603865599680584/1102577958255861790/sobre_2.png">
 <br><br>
 
 ## Serviços
